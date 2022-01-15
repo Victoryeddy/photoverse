@@ -5,19 +5,10 @@
     font-family:'Poppins', sans-serif;
 }
 
-$theme-colors:(
-    "navy-blue":#094bbe,
-    "grey":#8d8db9,
-    "white":#e6f4f1,
-    "light":#fff,
-    "dark":#000,
-    "honey-dew":#f9f8ff,
-    "gray":rgba(0, 0, 0, 0.212),
-    "batman":#454555,
-    "superman":#f1f1e6,
-);
 
 nav{
+    background-color:$superman;
+
     .nav-link{
         margin:0.5em;
     }
@@ -34,6 +25,10 @@ header{
     background-repeat: no-repeat;
     padding:18em 1em 16em 1em;
     background-position: center;
+
+    h1{
+        color:$honey-dew;
+    }
 
     .button{
         margin:2.5em 0;
@@ -58,4 +53,4 @@ footer{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "_variables.scss";
