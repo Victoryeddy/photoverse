@@ -1,0 +1,40 @@
+.btn-grey{
+    color:#fff;
+    background-color: transparent;
+    border-color: grey;
+}
+
+.btn-grey:hover{
+    color:#000;
+    background-color:grey;
+    border-color:grey;
+}
+
+.bg-brown{
+    background-color:#f8e7e5;
+}
+
+.btn-outline-peach{
+    background-color:transparent;
+    border-color:#fff;
+    color:#fff;
+}
+
+.btn-outline-peach:hover{
+    background-color:#aa7068;
+    border-color:none;
+    color:#000;
+    background-image: linear-gradient(to bottom right,white,#aa7068);
+}
+
+.btn-peach{
+    background-color:#aa7068;
+    border-color:none;
+    color:#000;
+    background-image: linear-gradient(to bottom right,white,#aa7068);
+}
+
+.text-peach{
+    color:#aa7068;
+}
+

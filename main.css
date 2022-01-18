@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 nav .nav-link {
-  margin: 0.5em;
+  margin: 0.7em;
 }
 
 nav .nav-link:hover {
@@ -22,12 +22,12 @@ header {
   background-color: rgba(0, 0, 0, 0.466);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 18em 1em 16em 1em;
+  padding: 18em 0;
   background-position: center;
 }
 
 header .button {
-  margin: 2.5em 0;
+  margin: 2em 0;
 }
 
 main .services {
