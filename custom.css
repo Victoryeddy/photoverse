@@ -14,6 +14,14 @@
     background-color:#f8e7e5;
 }
 
+.bg-light-brown{
+    background-color:#f8e7e5e8;
+}
+
+.bg-lightest-brown{
+    background-color:#f8e7e5a4;
+}
+
 .btn-outline-peach{
     background-color:transparent;
     border-color:#fff;
@@ -28,10 +36,16 @@
 }
 
 .btn-peach{
-    background-color:#aa7068;
-    border-color:none;
+    background-color:transparent;
+    border-color:#000;
+    border:0.2px solid #000;
     color:#000;
+}
+
+.btn-peach:hover{
     background-image: linear-gradient(to bottom right,white,#aa7068);
+    border-color:transparent;
+    color:#000;
 }
 
 .text-peach{
